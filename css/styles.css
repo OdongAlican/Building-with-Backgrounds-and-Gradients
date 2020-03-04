@@ -9,8 +9,7 @@
   background-image: url("../assets/background-image.jpeg");
   background-repeat: no-repeat;
   background-size: 100% 520px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 .background {
@@ -67,6 +66,12 @@
 
 .top-header .required-border {
   border-right: 1px solid #444;
+  border-left: 1px solid gray;
+}
+
+.apple-icon {
+  border-left: none;
+  border-radius: 3px;
 }
 
 .top-header input {
@@ -79,7 +84,6 @@
   border: 1px solid #444;
   border-left: none;
   outline: none;
-  padding-left: 10px;
   background-image: linear-gradient(#606060, gray, #606060, gray);
 }
 
@@ -91,7 +95,7 @@
   width: 70%;
   margin: auto;
   padding-top: 30px;
-  font-family: inherit;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: white;
   font-weight: 100;
 }
@@ -121,7 +125,7 @@
 }
 
 .lower-text span {
-  margin-left: 12%;
+  margin-left: 18%;
   cursor: pointer;
 }
 
@@ -182,4 +186,8 @@ footer .middle-section {
 
 .bottom-section {
   margin-top: 10px;
+}
+
+h5 {
+  display: none;
 }
