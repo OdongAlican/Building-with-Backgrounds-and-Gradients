@@ -2,6 +2,8 @@
 
 > This project consists of building an HTML document that matches clone of an old version of the Apple webpage
 
+![screenshot](assets/Screen-Shot.PNG)
+
 The purpose of this project is to clone the appearance of an old version of the Apple websit.
 
 ## Built With
